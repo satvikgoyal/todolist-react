@@ -45,6 +45,7 @@ const App = () => {
     setItemArray(newt);
     setvid(null);
     setbtn(false);
+    setitem("");
   };
   const moveUp = (id) => {
     const newt = [...itemArray];
